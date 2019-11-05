@@ -1,0 +1,5 @@
+this_set = set(['1','3','4','5'])
+print("{'1','3','4','5'} is given set.")
+rem = input("Enter element to remove from given set.")
+this_set.discard(rem)
+print(this_set)
